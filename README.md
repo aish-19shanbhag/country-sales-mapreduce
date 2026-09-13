@@ -33,9 +33,9 @@ Hive was used separately to run additional exploratory queries on the same datas
 ## Running the Project
 
 ```bash
-javac -classpath $(hadoop classpath) -d . sales.java
+javac -classpath $(hadoop classpath) -d . Sales.java
 jar -cvf sales.jar -C . .
-hadoop jar sales.jar sales /input/path /output/path
+hadoop jar sales.jar Sales /input/path /output/path
 ```
 
 ## Note
