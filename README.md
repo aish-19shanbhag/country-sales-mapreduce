@@ -27,7 +27,7 @@ Hive was used separately to run additional exploratory queries on the same datas
 
 ## Files
 
-- `Sales.java` — Hadoop MapReduce job for counting transactions by country
+- `sales.java` — Hadoop MapReduce job for counting transactions by country
 - `report.docx` — full project report, including Hive query outputs and screenshots
 
 ## Running the Project
